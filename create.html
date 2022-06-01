@@ -28,7 +28,6 @@
   <!-- Custom Style-->
   <link href="assets/css/app-style.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="./assets/css/index.css">
 
 </head>
 
@@ -161,64 +160,25 @@
         <div class="row">
           <div class="container">
             <div class="title" style="text-align: center;font-weight: bold;letter-spacing:2px;font-size:20px;color: rgba(0,0,0,0.2);">
-              DASHBOARD
-            </div>
-            <div class="create-btn" style="display:flex;justify-content:flex-end;padding-top:20px;padding-right: 20px;">
-              <button class="btn btn-success">Create</button>
+              Create
             </div>
             <div class="tb">
               <div class="container mt-2">
-                <div class="table-responsive">
-                    <table class="table table-striped table-dark text-white table-hover">
-                        <thead>
-                            <tr>
-                                <th class="text-center">ID</th>
-                                <th colspan="2" >NAME</th>                             
-                                <th>IMAGE</th>
-                                <th>PRICE</th>
-                                <th>COUNT</th>
-       
-                                  <th style="text-align: center;padding-left:100px;">Process</th>
-                              
-  
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="text-center" style="padding-top:18px">1</td>
-                                <td colspan="2" style="padding-top:20px">
-                                    <h6>Fasinating tactic that can help in business</h6>
-                                </td>
-                                <td>
-                                    <div class="d-flex align-items-center"><img class="rounded-circle" src="https://i.imgur.com/C4egmYM.jpg" width="40"></div>
-                                </td>
-                                <td style="padding-top:20px;padding-left: 16px">$30</td>
-                                <td class="font-weight-bold" style="padding-left: 30px;padding-top: 20px;">1</td>
-                                <div class="btn" style="display: flex;gap: 2px;">
-                                    <td style="display: flex;gap:25px;justify-content:flex-end;">
-                                      <button class="btn btn-primary" style="color:white"><i class="fas fa-eye"></i></button>
-                                      <button class="btn btn-info"><i class="fas fa-edit"></i></button>
-                                      <button class="btn btn-danger" style="color:white"><i class="fas fa-trash-alt"></i></button>
-                                    </td>
-                                  
-                                </div>
-                              
-                            </tr>
-                            
-                         
-                         
-                        
-                        </tbody>
-                    </table>                 
-                </div>
-                <div class="pagination">
-                  <div class="pag">
-                    1
-                  </div>
-                  <div class="pag">2</div>
-                  <div class="pag">3</div>
-                  <div class="pag">-></div>
+                <div class="table-responsive pt-3">
+                    <label for="#" style="padding-left:70px;">Name <sup>*</sup></label><br>
+                   <input type="text" style="width:90%;border: none;margin-left: 70px;min-height:40px;background-color:white;color: black;padding-left: 20px;"><br><br>
 
+                   <label for="#" style="padding-left:70px;">Price <sup>*</sup></label><br>
+                   <input type="text" style="width:90%;border: none;margin-left: 70px;height:40px;background-color:white;color: black;padding-left: 20px;"><br><br>
+
+                   <label for="#" style="padding-left:70px;">Count <sup>*</sup></label><br>
+                   <input type="number" style="width:90%;border: none;margin-left: 70px;height:40px;background-color:white;color: black;padding-left: 20px;"><br><br>
+
+                   <label for="#" style="padding-left:70px;">Image <sup>*</sup></label><br>
+                   <input type="file" style="width:25%;border: none;margin-left: 70px;height:40px;background-color:white;color: black;padding-left: 10px;padding-top: 5px;">
+                </div>
+                <div class="create" style="display:flex;justify-content:flex-end;padding-right: 35px;">
+                    <button class="btn btn-success">Create</button>
                 </div>
             </div>
             </div>
